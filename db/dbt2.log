@@ -1,0 +1,8 @@
+LOG:  database system was shut down at 2015-05-04 23:20:05 BST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received smart shutdown request
+FATAL:  terminating autovacuum process due to administrator command
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down

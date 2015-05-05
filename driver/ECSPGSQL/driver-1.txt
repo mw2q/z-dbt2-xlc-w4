@@ -1,0 +1,89 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 4
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 4
+
+10 terminals per warehouse
+
+600 second steady state duration
+
+driver is starting to ramp up at time 1430778019
+driver will ramp up in  3 seconds
+will stop test at time 1430778622
+seed for 39834:fd50b910 : 2820082006
+seed for 39834:fd26d910 : 2825113735
+seed for 39834:fd24d910 : 2825368866
+seed for 39834:fd22d910 : 2824878591
+seed for 39834:fd20d910 : 2824907629
+seed for 39834:fd1ed910 : 2823891294
+seed for 39834:fd1cd910 : 2823918471
+seed for 39834:fd1ad910 : 2824209031
+seed for 39834:fd18d910 : 2823980108
+seed for 39834:fd16d910 : 2824825578
+seed for 39834:fd14d910 : 2823993394
+seed for 39834:fd12d910 : 2824282829
+seed for 39834:fd10d910 : 2824045667
+seed for 39834:fd0ed910 : 2823560688
+seed for 39834:fd0cd910 : 2823587016
+seed for 39834:fd0ad910 : 2823115480
+seed for 39834:fd08d910 : 2823157525
+seed for 39834:fd06d910 : 2823443978
+seed for 39834:fd04d910 : 2823696536
+seed for 39834:fd02d910 : 2823510950
+seed for 39834:fd00d910 : 2823163994
+seed for 39834:fcfed910 : 2847635913
+seed for 39834:fcfcd910 : 2847929286
+seed for 39834:fcfad910 : 2847439578
+seed for 39834:fcf8d910 : 2847465205
+seed for 39834:fcf6d910 : 2847500901
+seed for 39834:fcf4d910 : 2847534451
+seed for 39834:fcf2d910 : 2847824555
+seed for 39834:fcf0d910 : 2847551132
+seed for 39834:fceed910 : 2846312507
+seed for 39834:fcecd910 : 2846555038
+seed for 39834:fcead910 : 2846844226
+seed for 39834:fce8d910 : 2846611100
+seed for 39834:fce6d910 : 2846124202
+seed for 39834:fce4d910 : 2846146682
+seed for 39834:fce2d910 : 2846710523
+seed for 39834:fce0d910 : 2846738860
+seed for 39834:fcded910 : 2844937382
+seed for 39834:fcdcd910 : 2845194026
+seed for 39834:fcdad910 : 2844979754
+terminals started...
+driver is exiting normally
